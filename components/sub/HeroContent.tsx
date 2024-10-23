@@ -37,7 +37,7 @@ const HeroContent = () => {
               {" "}
               Hi There!{" "}
             </span>
-            <br />I'm Sankalp Chaturvedi
+            <br />I am Sankalp Chaturvedi
             
           </span>
         </motion.div>
