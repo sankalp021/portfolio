@@ -14,17 +14,17 @@ const Projects = () => {
         <ProjectCard
           src="/bkss.png"
           title="BranchKarma Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description=" "
         />
         <ProjectCard
           src="/jpss.png"
           title="Job portal website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description=" "
         />
         <ProjectCard
           src="/msss.png"
           title="Mystore website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description=" "
         />
       </div>
     </div>
