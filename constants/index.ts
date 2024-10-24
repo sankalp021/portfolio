@@ -152,24 +152,24 @@ export const Frontend_skill: Skill[] = [
 ];
 
 export const Backend_skill: Skill[] = [
-  {
-    skill_name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "Node js",
+  //   Image: "/node-js.png",
+  //   width: 80,
+  //   height: 80,
+  // },
   {
     skill_name: "Express js",
     Image: "/express.png",
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
-  },
+  // {
+  //   skill_name: "Mongo db",
+  //   Image: "/mongodb.png",
+  //   width: 40,
+  //   height: 40,
+  // },
   {
     skill_name: "My SQL",
     Image: "/mysql.png",
