@@ -4,12 +4,17 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
-  description: "This is my portfolio",
+  title: "Portfolio",
+  description: "Welcome to my portfolio showcasing my software development projects and skills",
+  keywords: ["Portfolio", "Software Developer", "Web Development", "Full Stack", "Developer"],
+  authors: [{ name: "Sankalp Chaturvedi" }],
+  creator: "Sanaklp Chaturvedi",
+  
 };
 
 export default function RootLayout({
@@ -22,9 +27,10 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas />
+        <StarsCanvas /> 
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
